@@ -1,0 +1,51 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "noOverflow": true,
+      "existingSectionsUnchanged": null,
+      "tabs": true,
+      "keyboard": true,
+      "contactLinks": true
+    },
+    {
+      "width": 390,
+      "noOverflow": true,
+      "existingSectionsUnchanged": true,
+      "tabs": true,
+      "keyboard": true,
+      "contactLinks": true
+    },
+    {
+      "width": 768,
+      "noOverflow": true,
+      "existingSectionsUnchanged": null,
+      "tabs": true,
+      "keyboard": true,
+      "contactLinks": true
+    },
+    {
+      "width": 1024,
+      "noOverflow": true,
+      "existingSectionsUnchanged": null,
+      "tabs": true,
+      "keyboard": true,
+      "contactLinks": true
+    },
+    {
+      "width": 1440,
+      "noOverflow": true,
+      "existingSectionsUnchanged": true,
+      "tabs": true,
+      "keyboard": true,
+      "contactLinks": true
+    }
+  ],
+  "textZoom": true,
+  "catalogUnaffected": true,
+  "errors": [],
+  "previousViewportPixelEquality": {
+    "390": true,
+    "1440": true
+  }
+}

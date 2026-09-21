@@ -1,0 +1,60 @@
+{
+  "report": [
+    {
+      "width": 320,
+      "products": 163,
+      "images": 151,
+      "missingPhotoRows": 12,
+      "exactNamesAndOrder": true,
+      "nativeImageSize": true,
+      "noImageEffects": true,
+      "originalIncompleteMeasure": true,
+      "quote": true
+    },
+    {
+      "width": 390,
+      "products": 163,
+      "images": 151,
+      "missingPhotoRows": 12,
+      "exactNamesAndOrder": true,
+      "nativeImageSize": true,
+      "noImageEffects": true,
+      "originalIncompleteMeasure": true,
+      "quote": true
+    },
+    {
+      "width": 768,
+      "products": 163,
+      "images": 151,
+      "missingPhotoRows": 12,
+      "exactNamesAndOrder": true,
+      "nativeImageSize": true,
+      "noImageEffects": true,
+      "originalIncompleteMeasure": true,
+      "quote": true
+    },
+    {
+      "width": 1024,
+      "products": 163,
+      "images": 151,
+      "missingPhotoRows": 12,
+      "exactNamesAndOrder": true,
+      "nativeImageSize": true,
+      "noImageEffects": true,
+      "originalIncompleteMeasure": true,
+      "quote": true
+    },
+    {
+      "width": 1440,
+      "products": 163,
+      "images": 151,
+      "missingPhotoRows": 12,
+      "exactNamesAndOrder": true,
+      "nativeImageSize": true,
+      "noImageEffects": true,
+      "originalIncompleteMeasure": true,
+      "quote": true
+    }
+  ],
+  "errors": []
+}
