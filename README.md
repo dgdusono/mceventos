@@ -49,6 +49,6 @@ Fontes: [CONTENT-SOURCES.md](CONTENT-SOURCES.md). Verificações: [VALIDATION.md
 
 ## Área adicional na página inicial
 
-A apresentação de Cinthia aparece logo após as coleções de móveis, antes da seção original Sobre a M&C. Logo após Sobre a M&C aparece a área de IA: seis aplicações, 18 exemplos práticos e os seis formatos de soluções digitais reunidos na mesma seção. Ao final da home permanecem o resumo da empresa, as etapas do evento e o contato final. A área usa `src/components/event-extension.tsx` e `src/event-extension.css`; seus estilos são isolados em `.mc-extension`. O catálogo e as seções anteriores permanecem intactos.
+A apresentação de Cinthia aparece logo após as coleções de móveis, antes da seção original Sobre a M&C. Logo após Sobre a M&C aparece a área de IA: seis aplicações, 18 exemplos práticos e os seis formatos de soluções digitais reunidos na mesma seção. Ao final da home permanecem o resumo da empresa, as etapas do evento e o contato final. A área usa `src/components/event-extension.tsx` e `src/event-extension.css`; seus estilos são isolados em `.mc-extension`. A prévia de compartilhamento usa a logo original da M&C em `public/images/logo-mc.png`, sem criar uma marca nova. O catálogo e as seções anteriores permanecem intactos.
 
 Fontes, limites das afirmações e verificações desta adição: [NEW-SECTIONS-SOURCES.md](NEW-SECTIONS-SOURCES.md).

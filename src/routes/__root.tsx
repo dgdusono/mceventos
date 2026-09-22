@@ -80,6 +80,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "M&C Eventos" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      {
+        property: "og:image",
+        content: "https://mceventoselocacoes.com.br/images/logo-mc.png",
+      },
+      { property: "og:image:width", content: "300" },
+      { property: "og:image:height", content: "60" },
+      {
+        name: "twitter:image",
+        content: "https://mceventoselocacoes.com.br/images/logo-mc.png",
+      },
     ],
     links: [
       {

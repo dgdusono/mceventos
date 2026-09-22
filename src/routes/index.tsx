@@ -37,6 +37,16 @@ export const Route = createFileRoute("/")({
           "Mobiliário, produção e soluções para o seu evento. Explore o acervo e fale com a M&C.",
       },
       { property: "og:locale", content: "pt_BR" },
+      {
+        property: "og:image",
+        content: "https://mceventoselocacoes.com.br/images/logo-mc.png",
+      },
+      { property: "og:image:width", content: "300" },
+      { property: "og:image:height", content: "60" },
+      {
+        name: "twitter:image",
+        content: "https://mceventoselocacoes.com.br/images/logo-mc.png",
+      },
     ],
   }),
 });
@@ -157,10 +167,7 @@ function Home() {
                 <br />
                 <em>Tudo se conecta.</em>
               </h2>
-              <p>
-                Escolha as peças e conte com soluções que acompanham o seu evento, do planejamento à
-                operação.
-              </p>
+              <p>Mobiliário e soluções para acompanhar cada etapa do evento.</p>
               <Action href={contact.whatsapp}>Falar com a M&C</Action>
               <a className="text-link catalog-link" href={contact.catalog}>
                 Ver catálogo completo <ArrowRight size={17} />
@@ -238,11 +245,10 @@ function Home() {
         <section id="portfolio" className="portfolio-band dark-section">
           <div className="shell">
             <Reveal>
-              <Eyebrow>Mais trabalhos, em um só lugar</Eyebrow>
+              <Eyebrow>Portfólio</Eyebrow>
               <h2>
-                Quer conhecer <em>mais?</em>
+                Conheça outros <em>trabalhos.</em>
               </h2>
-              <p>Explore o portfólio completo para conhecer outros trabalhos e informações.</p>
             </Reveal>
             <Action href={contact.portfolio} outline>
               Ver portfólio completo

@@ -188,13 +188,6 @@ export function AISolutions() {
               interação com o público. Landing pages e automações conectam essas possibilidades à
               jornada do seu projeto.
             </p>
-            <p>
-              Explore as aplicações ao lado. Cada solução começa pelo seu objetivo, pelo perfil do
-              público e pelo contexto em que será utilizada.
-            </p>
-            <span className="mcx-ai-scope">
-              Possibilidades sob medida, com formato e escopo definidos em conjunto.
-            </span>
           </Reveal>
           <div className="mcx-ai-explorer">
             <div className="mcx-tabs" role="tablist" aria-label="Aplicações de IA em eventos">
@@ -310,7 +303,6 @@ export function CinthiaSection() {
               loading="lazy"
               alt="Cinthia Lenoch, profissional de produção executiva de eventos"
             />
-            <span>Produção executiva de eventos</span>
           </div>
           <Reveal className="mcx-person-copy">
             <Eyebrow>Nos bastidores · Cinthia Lenoch</Eyebrow>
@@ -320,9 +312,8 @@ export function CinthiaSection() {
               faz tudo <em>acontecer.</em>
             </h2>
             <p>
-              Cinthia atua na produção executiva de eventos: organiza demandas, acompanha
-              fornecedores e coordena a operação no local. Seu portfólio reúne congressos, projetos
-              institucionais e produção de estande.
+              Cinthia atua na produção executiva: organiza demandas, acompanha fornecedores e
+              coordena o evento no local.
             </p>
             <div className="mcx-career">
               <p>

@@ -577,15 +577,17 @@ p {
   flex-direction: column;
   align-items: start;
   min-height: 235px;
+  background: linear-gradient(150deg, #1c211b, #121512);
 }
 .testimonial-grid img {
-  height: 37px;
-  width: 105px;
+  height: 64px;
+  width: 72px;
   object-fit: contain;
-  object-position: left;
-  background: #f4f3f0;
-  border-radius: 3px;
-  padding: 4px;
+  object-position: center;
+  background: #f3eee5;
+  border: 1px solid #cdbb9f66;
+  border-radius: 5px;
+  padding: 8px 10px;
 }
 .testimonial-grid p {
   font-size: 0.77rem;
