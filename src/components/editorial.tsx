@@ -93,7 +93,7 @@ export function Header() {
   return (
     <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
       <div className="shell header-inner">
-        <a className="brand" href="#inicio" aria-label="M&C Eventos e Locações, início">
+        <a className="brand" href="#inicio" aria-label="M&C Locação e Eventos, início">
           <img src="/images/logo-mc.png" width="300" height="60" alt="M&C Locação e Eventos" />
         </a>
         <nav className="desktop-nav" aria-label="Navegação principal">

@@ -30,10 +30,6 @@ export const services = [
     text: "Planejamento, cronogramas, fornecedores e coordenação da operação.",
   },
   {
-    title: "Som, imagem e luz",
-    text: "Palco, painéis de LED, projeção, sonorização e iluminação para o seu evento.",
-  },
-  {
     title: "Ambientação",
     text: "Aparadores, tapetes, plantas, vasos e peças decorativas para completar o espaço.",
   },
@@ -56,8 +52,8 @@ export const eventScenes = [
     image: "ortofloripa",
     label: "Congresso de ortodontia · 2025",
     title: "Conforto que entra em cena.",
-    text: "Mobiliário integrado à ambientação e ao audiovisual no Congresso Catarinense de Ortodontia e II Encontro Latino-Americano de Ortodontia.",
-    alt: "Poltronas, mesas, plantas e estrutura audiovisual no Ortofloripa 2025",
+    text: "Mobiliário integrado à ambientação no Congresso Catarinense de Ortodontia e II Encontro Latino-Americano de Ortodontia.",
+    alt: "Poltronas, mesas e plantas no Ortofloripa 2025",
   },
   {
     name: "COSEMS-SC",
@@ -84,9 +80,5 @@ export const productCollections = [
   {
     title: "Decoração",
     image: "pdf-054.png",
-  },
-  {
-    title: "Estrutura e audiovisual",
-    image: "pdf-119.png",
   },
 ];

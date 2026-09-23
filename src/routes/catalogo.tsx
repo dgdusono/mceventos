@@ -96,7 +96,7 @@ export const Route = createFileRoute("/catalogo")({
   }),
   head: () => ({
     meta: [
-      { title: "Catálogo de móveis e locações | M&C Eventos" },
+      { title: "Catálogo de móveis e locações | M&C Locação e Eventos" },
       {
         name: "description",
         content:
@@ -209,7 +209,7 @@ function Catalog() {
       </a>
       <header className="catalog-header">
         <div className="catalog-shell">
-          <Link className="brand" to="/" aria-label="M&C Eventos e Locações, início">
+          <Link className="brand" to="/" aria-label="M&C Locação e Eventos, início">
             <img src="/images/logo-mc.png" width="300" height="60" alt="M&C Locação e Eventos" />
           </Link>
           <nav aria-label="Navegação do catálogo">

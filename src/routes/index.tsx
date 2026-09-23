@@ -6,7 +6,6 @@ import {
   Sofa,
   Bot,
   Layers3,
-  Volume2,
   Instagram,
   Mail,
   MessageCircle,
@@ -21,15 +20,15 @@ export const Route = createFileRoute("/")({
   component: Home,
   head: () => ({
     meta: [
-      { title: "M&C Eventos e Locações | Móveis e soluções para eventos" },
+      { title: "M&C Locação e Eventos | Móveis e soluções para eventos" },
       {
         name: "description",
         content:
-          "Móveis para locação, ambientes e soluções completas para eventos. Conheça sofás, poltronas, cadeiras, mesas, decoração e audiovisual da M&C. Solicite seu orçamento.",
+          "Móveis para locação, ambientes e soluções completas para eventos. Conheça sofás, poltronas, cadeiras, mesas e decoração da M&C. Solicite seu orçamento.",
       },
       {
         property: "og:title",
-        content: "M&C Eventos e Locações | Móveis que transformam encontros",
+        content: "M&C Locação e Eventos | Móveis que transformam encontros",
       },
       {
         property: "og:description",
@@ -50,7 +49,7 @@ export const Route = createFileRoute("/")({
     ],
   }),
 });
-const serviceIcons = [Sofa, Truck, ClipboardCheck, Volume2, Layers3, Bot];
+const serviceIcons = [Sofa, Truck, ClipboardCheck, Layers3, Bot];
 
 function Home() {
   return (
@@ -71,7 +70,7 @@ function Home() {
           />
           <div className="hero-shade" />
           <div className="shell hero-content">
-            <Eyebrow>M&C Eventos e Locações</Eyebrow>
+            <Eyebrow>M&C Locação e Eventos</Eyebrow>
             <h1>
               Móveis que
               <br />
@@ -125,7 +124,7 @@ function Home() {
               <br />O cuidado <em>conecta.</em>
             </h2>
             <p>
-              A M&C Eventos e Locações reúne mobiliário, produção e soluções para eventos. Peças
+              A M&C Locação e Eventos reúne mobiliário, produção e soluções para eventos. Peças
               versáteis, planejamento e uma operação que acompanha cada etapa, da escolha dos móveis
               à retirada.
             </p>
@@ -188,60 +187,6 @@ function Home() {
           </div>
         </section>
 
-        <section className="testimonials-section dark-section" aria-labelledby="recognition-title">
-          <div className="shell testimonials-layout">
-            <Reveal>
-              <Eyebrow>Quem já esteve com a M&C</Eyebrow>
-              <h2 id="recognition-title">
-                O cuidado também
-                <br />
-                se vê no <em>resultado.</em>
-              </h2>
-            </Reveal>
-            <div className="testimonial-grid">
-              <blockquote>
-                <img
-                  src="/images/logo-cobrafito.svg"
-                  width="110"
-                  height="42"
-                  loading="lazy"
-                  alt="Cobrafito"
-                />
-                <p>“Nossa melhor venda de ingressos da história.”</p>
-                <footer>
-                  Diretor <span>@cobrafito</span>
-                </footer>
-              </blockquote>
-              <blockquote>
-                <img
-                  src="/images/logo-cosems.png"
-                  width="110"
-                  height="42"
-                  loading="lazy"
-                  alt="COSEMS-SC"
-                />
-                <p>“Evento impecável, zero problemas.”</p>
-                <footer>
-                  Diretor <span>@cosemssc</span>
-                </footer>
-              </blockquote>
-              <blockquote>
-                <img
-                  src="/images/logo-acors.png"
-                  width="110"
-                  height="42"
-                  loading="lazy"
-                  alt="ACORS"
-                />
-                <p>“A IA mudou nosso jogo.”</p>
-                <footer>
-                  Diretor <span>@associacaoacors</span>
-                </footer>
-              </blockquote>
-            </div>
-          </div>
-        </section>
-
         <section id="portfolio" className="portfolio-band dark-section">
           <div className="shell">
             <Reveal>
@@ -297,7 +242,7 @@ function Home() {
       <footer className="site-footer">
         <div className="shell">
           <div className="footer-main">
-            <a className="brand" href="#inicio" aria-label="M&C Eventos e Locações, início">
+            <a className="brand" href="#inicio" aria-label="M&C Locação e Eventos, início">
               <img src="/images/logo-mc.png" width="300" height="60" alt="M&C Locação e Eventos" />
             </a>
             <nav aria-label="Navegação do rodapé">
@@ -347,7 +292,7 @@ function Home() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>© {new Date().getFullYear()} M&C Eventos e Locações.</p>
+            <p>© {new Date().getFullYear()} M&C Locação e Eventos.</p>
             <p>Mobiliário · Locação · Produção de Eventos</p>
           </div>
         </div>

@@ -16,7 +16,6 @@ const catalogCollections = [
   "cadeiras-banquetas",
   "mesas-aparadores",
   "decoracao",
-  "estrutura-audiovisual",
 ];
 export function Products() {
   return (
