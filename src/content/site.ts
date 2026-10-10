@@ -5,12 +5,9 @@ export const contact = {
   instagram: "https://www.instagram.com/mclocacaoeventos/",
   linkedin: "https://www.linkedin.com/company/mc-eventos",
   portfolio: "/portfolio-cinthia-lenoch.pdf",
-  catalog: "/catalogo",
-  catalogPdf: "https://www.mceventoselocacoes.com.br/assets/lista_de_produtos-DtOjPgsG.pdf",
 };
 export const navigation = [
   ["Início", "#inicio"],
-  ["Móveis", "/catalogo"],
   ["A M&C", "#sobre"],
   ["Eventos", "#eventos"],
   ["Portfólio", "#portfolio"],
@@ -18,20 +15,12 @@ export const navigation = [
 ] as const;
 export const services = [
   {
-    title: "Locação de mobiliário",
-    text: "Sofás, poltronas, cadeiras, mesas e complementos para compor seu ambiente.",
-  },
-  {
-    title: "Entrega e montagem",
-    text: "Logística, montagem profissional e retirada organizada ao fim do evento.",
-  },
-  {
     title: "Produção completa",
     text: "Planejamento, cronogramas, fornecedores e coordenação da operação.",
   },
   {
-    title: "Ambientação",
-    text: "Aparadores, tapetes, plantas, vasos e peças decorativas para completar o espaço.",
+    title: "Coordenação no local",
+    text: "Equipes, fornecedores e cronogramas acompanhados durante a execução.",
   },
   {
     title: "IA para eventos",
@@ -43,42 +32,24 @@ export const eventScenes = [
     name: "Cobrafito",
     image: "cobrafito",
     label: "Congresso científico · 2025",
-    title: "Um palco para boas conversas.",
-    text: "Poltronas brancas e mesas de apoio compõem o ambiente do Congresso Brasileiro e Internacional da ABRAFITO, apresentado pela M&C.",
-    alt: "Palco do Cobrafito 2025 com cinco poltronas brancas e mesas laterais",
+    title: "Encontros que conectam pessoas.",
+    text: "Congresso Brasileiro e Internacional da ABRAFITO, com programação e operação pensadas para o público presente.",
+    alt: "Palco do Congresso Brasileiro e Internacional da ABRAFITO em 2025",
   },
   {
     name: "Ortofloripa",
     image: "ortofloripa",
     label: "Congresso de ortodontia · 2025",
-    title: "Conforto que entra em cena.",
-    text: "Mobiliário integrado à ambientação no Congresso Catarinense de Ortodontia e II Encontro Latino-Americano de Ortodontia.",
-    alt: "Poltronas, mesas e plantas no Ortofloripa 2025",
+    title: "Uma experiência em cada detalhe.",
+    text: "Congresso Catarinense de Ortodontia e II Encontro Latino-Americano de Ortodontia, em Florianópolis.",
+    alt: "Palco do Ortofloripa 2025 durante o congresso",
   },
   {
     name: "COSEMS-SC",
     image: "cosems",
     label: "Encontro de saúde pública · 2025",
-    title: "Cada espaço, uma composição.",
-    text: "Móveis e estrutura de palco no 9º Congresso de Secretários Municipais de Saúde de Santa Catarina, em Blumenau.",
-    alt: "Ambiente de palco com mobiliário no 9º Congresso COSEMS-SC em 2025",
-  },
-];
-export const productCollections = [
-  {
-    title: "Sofás e poltronas",
-    image: "pdf-091.png",
-  },
-  {
-    title: "Cadeiras e banquetas",
-    image: "pdf-026.png",
-  },
-  {
-    title: "Mesas e aparadores",
-    image: "pdf-067.png",
-  },
-  {
-    title: "Decoração",
-    image: "pdf-054.png",
+    title: "Organização para grandes encontros.",
+    text: "9º Congresso de Secretários Municipais de Saúde de Santa Catarina, realizado em Blumenau.",
+    alt: "Palco do 9º Congresso COSEMS-SC em 2025",
   },
 ];

@@ -349,13 +349,12 @@ export function EventExtension() {
           </Reveal>
           <Reveal className="mcx-company-copy">
             <p>
-              A M&C Locação e Eventos reúne produção, mobiliário e soluções em IA. Do planejamento
-              à operação, conecta as necessidades do evento a uma experiência pensada para quem
-              organiza e para quem participa.
+              A M&C Locação e Eventos reúne produção e soluções em IA. Do planejamento à operação,
+              conecta as necessidades do evento a uma experiência pensada para quem organiza e para
+              quem participa.
             </p>
             <ul aria-label="Frentes de atuação da M&C">
               <li>Produção</li>
-              <li>Mobiliário</li>
               <li>Inteligência Artificial</li>
             </ul>
           </Reveal>

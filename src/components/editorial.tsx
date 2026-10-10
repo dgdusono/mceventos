@@ -130,7 +130,7 @@ export function Header() {
               ))}
             </nav>
             <Action href={contact.whatsapp}>Solicitar orçamento</Action>
-            <p>Mobiliário · Locação · Eventos</p>
+            <p>Produção · Coordenação · Eventos</p>
           </SheetContent>
         </Sheet>
       </div>

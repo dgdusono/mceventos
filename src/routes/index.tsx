@@ -2,8 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import {
   ArrowRight,
   ClipboardCheck,
-  Truck,
-  Sofa,
   Bot,
   Layers3,
   Instagram,
@@ -12,7 +10,7 @@ import {
   Linkedin,
 } from "lucide-react";
 import { Header, Reveal, Action, Eyebrow } from "@/components/editorial";
-import { Products, EventGallery, AmbientGallery } from "@/components/collections";
+import { EventGallery } from "@/components/collections";
 import { contact, navigation, services } from "@/content/site";
 import { AISolutions, CinthiaSection, EventExtension } from "@/components/event-extension";
 
@@ -20,20 +18,20 @@ export const Route = createFileRoute("/")({
   component: Home,
   head: () => ({
     meta: [
-      { title: "M&C Locação e Eventos | Móveis e soluções para eventos" },
+      { title: "M&C Locação e Eventos | Produção de eventos" },
       {
         name: "description",
         content:
-          "Móveis para locação, ambientes e soluções completas para eventos. Conheça sofás, poltronas, cadeiras, mesas e decoração da M&C. Solicite seu orçamento.",
+          "Produção, coordenação e soluções para eventos. Conheça a M&C e o portfólio de Cinthia Lenoch. Solicite seu orçamento.",
       },
       {
         property: "og:title",
-        content: "M&C Locação e Eventos | Móveis que transformam encontros",
+        content: "M&C Locação e Eventos | Eventos que conectam pessoas",
       },
       {
         property: "og:description",
         content:
-          "Mobiliário, produção e soluções para o seu evento. Explore o acervo e fale com a M&C.",
+          "Produção, coordenação e soluções para o seu evento. Conheça nosso trabalho e fale com a M&C.",
       },
       { property: "og:locale", content: "pt_BR" },
       {
@@ -49,7 +47,7 @@ export const Route = createFileRoute("/")({
     ],
   }),
 });
-const serviceIcons = [Sofa, Truck, ClipboardCheck, Layers3, Bot];
+const serviceIcons = [ClipboardCheck, Layers3, Bot];
 
 function Home() {
   return (
@@ -62,25 +60,25 @@ function Home() {
         <section id="inicio" className="hero furniture-hero">
           <img
             className="hero-environment"
-            src="/images/cobrafito.webp"
+            src="/images/ortofloripa.webp"
             width="1600"
             height="1200"
             fetchPriority="high"
-            alt="Poltronas brancas e mesas de apoio em ambiente do Cobrafito 2025, apresentado pela M&C"
+            alt="Palco do Congresso Ortofloripa 2025"
           />
           <div className="hero-shade" />
           <div className="shell hero-content">
             <Eyebrow>M&C Locação e Eventos</Eyebrow>
             <h1>
-              Móveis que
+              Eventos que
               <br />
-              transformam
+              conectam
               <br />
-              <em>encontros.</em>
+              <em>pessoas.</em>
             </h1>
             <p>
-              Locação de mobiliário, ambientes e soluções para eventos. Do primeiro detalhe à
-              montagem completa.
+              Produção e coordenação de eventos, do planejamento à execução. Cuidado em cada detalhe
+              para fazer tudo acontecer.
             </p>
             <div className="actions">
               <Action href={contact.whatsapp}>Solicitar orçamento</Action>
@@ -88,23 +86,19 @@ function Home() {
                 Ver portfólio completo
               </Action>
             </div>
-            <a className="hero-collection-link" href={contact.catalog}>
-              Explore nossos móveis <ArrowRight size={17} />
-            </a>
           </div>
-          <a className="scroll-cue" href="#moveis">
+          <a className="scroll-cue" href="#sobre-cinthia">
             <span>
               Conheça
-              <br />o acervo
+              <br />a produção
             </span>
             <span className="scroll-line" />
           </a>
           <span className="environment-caption">
-            Mobiliário em cena <span>Cobrafito · 2025</span>
+            Evento em cena <span>Ortofloripa · 2025</span>
           </span>
         </section>
 
-        <Products />
         <CinthiaSection />
 
         <section id="sobre" className="about-section dark-section">
@@ -114,37 +108,37 @@ function Home() {
               width="1600"
               height="1068"
               loading="lazy"
-              alt="Poltronas brancas, palco e ambientação no Ortofloripa 2025"
+              alt="Palco do congresso Ortofloripa 2025"
             />
           </div>
           <Reveal className="about-copy">
             <Eyebrow>Sobre a M&C</Eyebrow>
             <h2>
-              Os móveis compõem.
+              A produção organiza.
               <br />O cuidado <em>conecta.</em>
             </h2>
             <p>
-              A M&C Locação e Eventos reúne mobiliário, produção e soluções para eventos. Peças
-              versáteis, planejamento e uma operação que acompanha cada etapa, da escolha dos móveis
-              à retirada.
+              A M&C Locação e Eventos reúne produção, coordenação e soluções para eventos.
+              Planejamento e uma operação que acompanham cada etapa, da primeira conversa à
+              realização.
             </p>
             <div className="about-details">
               <div>
-                <Sofa />
+                <ClipboardCheck />
                 <span>
-                  <strong>Mobiliário</strong>para diferentes ambientes
+                  <strong>Planejamento</strong>para cada etapa do evento
                 </span>
               </div>
               <div>
-                <Truck />
+                <Layers3 />
                 <span>
-                  <strong>Logística</strong>entrega e retirada organizadas
+                  <strong>Coordenação</strong>de equipes e fornecedores
                 </span>
               </div>
               <div>
                 <ClipboardCheck />
                 <span>
-                  <strong>Montagem</strong>profissional e eficiente
+                  <strong>Execução</strong>acompanhada de perto
                 </span>
               </div>
             </div>
@@ -153,7 +147,6 @@ function Home() {
         </section>
 
         <AISolutions />
-        <AmbientGallery />
         <EventGallery />
 
         <section id="servicos" className="services-section paper-section">
@@ -161,20 +154,17 @@ function Home() {
             <Reveal className="services-intro">
               <Eyebrow>Soluções para eventos</Eyebrow>
               <h2>
-                Do mobiliário
-                <br />à entrega.
+                Do planejamento
+                <br />à execução.
                 <br />
                 <em>Tudo se conecta.</em>
               </h2>
-              <p>Mobiliário e soluções para acompanhar cada etapa do evento.</p>
+              <p>Produção, coordenação e soluções para acompanhar cada etapa do evento.</p>
               <Action href={contact.whatsapp}>Falar com a M&C</Action>
-              <a className="text-link catalog-link" href={contact.catalog}>
-                Ver catálogo completo <ArrowRight size={17} />
-              </a>
             </Reveal>
             <div className="service-grid">
               {services.map((service, i) => {
-                const Icon = serviceIcons[i] ?? Sofa;
+                const Icon = serviceIcons[i] ?? ClipboardCheck;
                 return (
                   <Reveal className="service-card" key={service.title}>
                     <Icon size={24} strokeWidth={1.4} />
@@ -207,22 +197,23 @@ function Home() {
             width="1600"
             height="1200"
             loading="lazy"
-            alt="Mobiliário e estrutura de palco no Congresso COSEMS-SC de 2025"
+            alt="Palco do Congresso COSEMS-SC de 2025"
           />
           <div className="contact-shade" />
           <div className="shell contact-layout">
             <Reveal>
-              <Eyebrow>Vamos criar seu ambiente?</Eyebrow>
+              <Eyebrow>Vamos planejar seu evento?</Eyebrow>
               <h2>
-                Os móveis certos.
-                <br />O cenário para o seu
+                Cada detalhe conta.
+                <br />
+                Vamos planejar seu
                 <br />
                 <em>próximo encontro.</em>
               </h2>
               <p>
                 Conte a data, o local e o que você imagina.
                 <br />
-                Vamos encontrar as peças para o seu evento.
+                Vamos pensar na produção do seu evento.
               </p>
               <div className="actions">
                 <Action href={contact.whatsapp}>Solicitar orçamento</Action>
@@ -232,7 +223,7 @@ function Home() {
               </div>
             </Reveal>
             <span className="contact-signature">
-              Móveis, ambientes
+              Produção, cuidado
               <br />e bons encontros.
             </span>
           </div>
@@ -293,7 +284,7 @@ function Home() {
           </div>
           <div className="footer-bottom">
             <p>© {new Date().getFullYear()} M&C Locação e Eventos.</p>
-            <p>Mobiliário · Locação · Produção de Eventos</p>
+            <p>Produção · Coordenação · Eventos</p>
           </div>
         </div>
       </footer>

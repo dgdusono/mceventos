@@ -3,7 +3,6 @@
 @import "tw-animate-css";
 @import "./editorial.css";
 @import "./furniture.css";
-@import "./catalog.css";
 
 @custom-variant dark (&:is(.dark *));
 
