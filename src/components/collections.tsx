@@ -10,7 +10,7 @@ export function EventGallery() {
     <section id="eventos" className="event-section dark-section" aria-labelledby="event-title">
       <div className="shell event-layout">
         <Reveal className="event-intro">
-          <Eyebrow>Em cena, a M&C</Eyebrow>
+          <Eyebrow>Em cena, a produção</Eyebrow>
           <h2 id="event-title">
             Eventos que
             <br />

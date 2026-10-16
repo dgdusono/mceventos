@@ -1,14 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import {
-  ArrowRight,
-  ClipboardCheck,
-  Bot,
-  Layers3,
-  Instagram,
-  Mail,
-  MessageCircle,
-  Linkedin,
-} from "lucide-react";
+import { ArrowRight, ClipboardCheck, Bot, Layers3, Instagram, MessageCircle } from "lucide-react";
 import { Header, Reveal, Action, Eyebrow } from "@/components/editorial";
 import { EventGallery } from "@/components/collections";
 import { contact, navigation, services } from "@/content/site";
@@ -18,31 +9,31 @@ export const Route = createFileRoute("/")({
   component: Home,
   head: () => ({
     meta: [
-      { title: "M&C Locação e Eventos | Produção de eventos" },
+      { title: "Cinthia Lenoch | Produção de eventos" },
       {
         name: "description",
         content:
-          "Produção, coordenação e soluções para eventos. Conheça a M&C e o portfólio de Cinthia Lenoch. Solicite seu orçamento.",
+          "Produção, coordenação e soluções para eventos com Cinthia Lenoch. Conheça o portfólio e solicite seu orçamento.",
       },
       {
         property: "og:title",
-        content: "M&C Locação e Eventos | Eventos que conectam pessoas",
+        content: "Cinthia Lenoch | Eventos que conectam pessoas",
       },
       {
         property: "og:description",
         content:
-          "Produção, coordenação e soluções para o seu evento. Conheça nosso trabalho e fale com a M&C.",
+          "Produção, coordenação e soluções para o seu evento. Conheça o trabalho da Cinthia Lenoch.",
       },
       { property: "og:locale", content: "pt_BR" },
       {
         property: "og:image",
-        content: "https://mceventoselocacoes.com.br/images/logo-mc.png",
+        content: "https://cinthialenoch.com.br/images/cinthia-lenoch.png",
       },
-      { property: "og:image:width", content: "300" },
-      { property: "og:image:height", content: "60" },
+      { property: "og:image:width", content: "1060" },
+      { property: "og:image:height", content: "1484" },
       {
         name: "twitter:image",
-        content: "https://mceventoselocacoes.com.br/images/logo-mc.png",
+        content: "https://cinthialenoch.com.br/images/cinthia-lenoch.png",
       },
     ],
   }),
@@ -68,7 +59,7 @@ function Home() {
           />
           <div className="hero-shade" />
           <div className="shell hero-content">
-            <Eyebrow>M&C Locação e Eventos</Eyebrow>
+            <Eyebrow>Cinthia Lenoch · Produção de eventos</Eyebrow>
             <h1>
               Eventos que
               <br />
@@ -112,15 +103,14 @@ function Home() {
             />
           </div>
           <Reveal className="about-copy">
-            <Eyebrow>Sobre a M&C</Eyebrow>
+            <Eyebrow>Sobre a Cinthia</Eyebrow>
             <h2>
               A produção organiza.
               <br />O cuidado <em>conecta.</em>
             </h2>
             <p>
-              A M&C Locação e Eventos reúne produção, coordenação e soluções para eventos.
-              Planejamento e uma operação que acompanham cada etapa, da primeira conversa à
-              realização.
+              Cinthia Lenoch reúne produção, coordenação e soluções para eventos. Planejamento e uma
+              operação que acompanham cada etapa, da primeira conversa à realização.
             </p>
             <div className="about-details">
               <div>
@@ -160,7 +150,7 @@ function Home() {
                 <em>Tudo se conecta.</em>
               </h2>
               <p>Produção, coordenação e soluções para acompanhar cada etapa do evento.</p>
-              <Action href={contact.whatsapp}>Falar com a M&C</Action>
+              <Action href={contact.whatsapp}>Falar com a Cinthia</Action>
             </Reveal>
             <div className="service-grid">
               {services.map((service, i) => {
@@ -217,9 +207,6 @@ function Home() {
               </p>
               <div className="actions">
                 <Action href={contact.whatsapp}>Solicitar orçamento</Action>
-                <a className="text-link" href={`mailto:${contact.email}`}>
-                  Enviar e-mail <ArrowRight size={17} />
-                </a>
               </div>
             </Reveal>
             <span className="contact-signature">
@@ -233,8 +220,13 @@ function Home() {
       <footer className="site-footer">
         <div className="shell">
           <div className="footer-main">
-            <a className="brand" href="#inicio" aria-label="M&C Locação e Eventos, início">
-              <img src="/images/logo-mc.png" width="300" height="60" alt="M&C Locação e Eventos" />
+            <a className="brand" href="#inicio" aria-label="Cinthia Lenoch, início">
+              <img
+                src="/images/logo-cinthia.svg"
+                width="300"
+                height="60"
+                alt="Cinthia Lenoch, produção de eventos"
+              />
             </a>
             <nav aria-label="Navegação do rodapé">
               {navigation.map(([label, href]) => (
@@ -248,23 +240,15 @@ function Home() {
               <div>
                 <a
                   href={contact.instagram}
-                  aria-label="Instagram da M&C"
+                  aria-label="Instagram da Cinthia Lenoch"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <Instagram />
                 </a>
                 <a
-                  href={contact.linkedin}
-                  aria-label="LinkedIn da M&C"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Linkedin />
-                </a>
-                <a
                   href={contact.whatsapp}
-                  aria-label="WhatsApp da M&C"
+                  aria-label="WhatsApp da Cinthia Lenoch"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -273,17 +257,13 @@ function Home() {
               </div>
             </div>
             <div className="footer-contact">
-              <a href={`mailto:${contact.email}`}>
-                <Mail size={15} />
-                {contact.email}
-              </a>
               <a href={contact.whatsapp} target="_blank" rel="noreferrer">
-                Fale com a M&C no WhatsApp <ArrowRight size={15} />
+                Fale com a Cinthia no WhatsApp <ArrowRight size={15} />
               </a>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>© {new Date().getFullYear()} M&C Locação e Eventos.</p>
+            <p>© {new Date().getFullYear()} Cinthia Lenoch.</p>
             <p>Produção · Coordenação · Eventos</p>
           </div>
         </div>

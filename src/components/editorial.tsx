@@ -93,8 +93,13 @@ export function Header() {
   return (
     <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
       <div className="shell header-inner">
-        <a className="brand" href="#inicio" aria-label="M&C Locação e Eventos, início">
-          <img src="/images/logo-mc.png" width="300" height="60" alt="M&C Locação e Eventos" />
+        <a className="brand" href="#inicio" aria-label="Cinthia Lenoch, início">
+          <img
+            src="/images/logo-cinthia.svg"
+            width="300"
+            height="60"
+            alt="Cinthia Lenoch, produção de eventos"
+          />
         </a>
         <nav className="desktop-nav" aria-label="Navegação principal">
           {navigation.map(([label, href]) => (
@@ -113,11 +118,16 @@ export function Header() {
             </button>
           </SheetTrigger>
           <SheetContent className="mobile-sheet" side="right">
-            <SheetTitle className="sr-only">Menu M&C</SheetTitle>
+            <SheetTitle className="sr-only">Menu Cinthia Lenoch</SheetTitle>
             <SheetDescription className="sr-only">
-              Navegue pelas seções e fale com a M&C.
+              Navegue pelas seções e fale com a Cinthia.
             </SheetDescription>
-            <img src="/images/logo-mc.png" width="210" height="42" alt="M&C Locação e Eventos" />
+            <img
+              src="/images/logo-cinthia.svg"
+              width="210"
+              height="42"
+              alt="Cinthia Lenoch, produção de eventos"
+            />
             <nav aria-label="Navegação móvel">
               {navigation.map(([label, href], i) => (
                 <SheetClose asChild key={href}>

@@ -1,14 +1,12 @@
 // Official sources and asset provenance: CONTENT-SOURCES.md.
 export const contact = {
   whatsapp: "https://wa.me/5521987829569",
-  email: "mec.eventos@outlook.com",
-  instagram: "https://www.instagram.com/mclocacaoeventos/",
-  linkedin: "https://www.linkedin.com/company/mc-eventos",
+  instagram: "https://www.instagram.com/mceventoscinthia/",
   portfolio: "/portfolio-cinthia-lenoch.pdf",
 };
 export const navigation = [
   ["Início", "#inicio"],
-  ["A M&C", "#sobre"],
+  ["Cinthia", "#sobre"],
   ["Eventos", "#eventos"],
   ["Portfólio", "#portfolio"],
   ["Contato", "#contato"],

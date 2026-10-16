@@ -154,7 +154,7 @@ const stages = [
   },
 ];
 const discuss = (subject: string) =>
-  `${contact.whatsapp}?text=${encodeURIComponent(`Olá, M&C! Gostaria de conversar sobre ${subject} para meu projeto.`)}`;
+  `${contact.whatsapp}?text=${encodeURIComponent(`Olá, Cinthia! Gostaria de conversar sobre ${subject} para meu projeto.`)}`;
 
 export function AISolutions() {
   const [active, setActive] = useState(0);
@@ -272,7 +272,7 @@ export function AISolutions() {
                   href={discuss(solution.title.toLowerCase())}
                   target="_blank"
                   rel="noreferrer"
-                  aria-label={`Conversar com a M&C sobre ${solution.title}`}
+                  aria-label={`Conversar com a Cinthia sobre ${solution.title}`}
                 >
                   <Icon size={24} strokeWidth={1.35} aria-hidden="true" />
                   <h3>{solution.title}</h3>
@@ -341,7 +341,7 @@ export function EventExtension() {
       <section className="mcx-company" aria-labelledby="mcx-company-title">
         <div className="shell mcx-company-layout">
           <Reveal>
-            <Eyebrow>A M&C</Eyebrow>
+            <Eyebrow>Cinthia Lenoch</Eyebrow>
             <h2 id="mcx-company-title">
               Produção, estrutura
               <br />e <em>novas possibilidades.</em>
@@ -349,11 +349,11 @@ export function EventExtension() {
           </Reveal>
           <Reveal className="mcx-company-copy">
             <p>
-              A M&C Locação e Eventos reúne produção e soluções em IA. Do planejamento à operação,
-              conecta as necessidades do evento a uma experiência pensada para quem organiza e para
+              Cinthia Lenoch reúne produção de eventos e soluções em IA. Do planejamento à operação,
+              conecta as necessidades do projeto a uma experiência pensada para quem organiza e para
               quem participa.
             </p>
-            <ul aria-label="Frentes de atuação da M&C">
+            <ul aria-label="Frentes de atuação da Cinthia Lenoch">
               <li>Produção</li>
               <li>Inteligência Artificial</li>
             </ul>
@@ -397,11 +397,11 @@ export function EventExtension() {
               <em>Uma conversa para começar.</em>
             </h2>
             <p>
-              Conte o objetivo, o público e o momento do seu projeto. A M&C conversa com você sobre
-              uma solução personalizada.
+              Conte o objetivo, o público e o momento do seu projeto. A Cinthia conversa com você
+              sobre uma solução personalizada.
             </p>
           </Reveal>
-          <Action href={discuss("uma solução personalizada")}>Conversar com a M&C</Action>
+          <Action href={discuss("uma solução personalizada")}>Conversar com a Cinthia</Action>
         </div>
       </section>
     </div>

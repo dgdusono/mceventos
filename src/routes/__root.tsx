@@ -77,18 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "author", content: "M&C Locação e Eventos" },
+      { name: "author", content: "Cinthia Lenoch" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       {
         property: "og:image",
-        content: "https://mceventoselocacoes.com.br/images/logo-mc.png",
+        content: "https://cinthialenoch.com.br/images/cinthia-lenoch.png",
       },
-      { property: "og:image:width", content: "300" },
-      { property: "og:image:height", content: "60" },
+      { property: "og:image:width", content: "1060" },
+      { property: "og:image:height", content: "1484" },
       {
         name: "twitter:image",
-        content: "https://mceventoselocacoes.com.br/images/logo-mc.png",
+        content: "https://cinthialenoch.com.br/images/cinthia-lenoch.png",
       },
     ],
     links: [
