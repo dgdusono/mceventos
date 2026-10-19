@@ -2,7 +2,7 @@
 export const contact = {
   whatsapp: "https://wa.me/5548988504082",
   instagram: "https://www.instagram.com/mceventoscinthia/",
-  portfolio: "/portfolio-cinthia-lenoch.pdf",
+  portfolio: "/portfolio-cinthia-lenoch.pdf?v=2",
 };
 export const navigation = [
   ["Início", "#inicio"],
