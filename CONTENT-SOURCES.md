@@ -43,7 +43,7 @@ A imagem cujo nome original contém “horto” mostra Ortofloripa 2025; não fo
 
 - Logo original: https://www.mceventoselocacoes.com.br/assets/logo-footer-DhWqlb63.png — mantido sem redesenho ou alteração de proporção.
 - Serviços publicados: mobiliário, logística/montagem, produção completa e IA para eventos. Estrutura e ambientação também constam no catálogo.
-- WhatsApp preservado exatamente dos CTAs oficiais: https://wa.me/554892219278
+- WhatsApp atualizado conforme contato comercial informado: `https://wa.me/5548988504082`
 - E-mail: mec.eventos@outlook.com
 - Instagram: https://www.instagram.com/mclocacaoeventos/
 - LinkedIn: https://www.linkedin.com/company/mc-eventos

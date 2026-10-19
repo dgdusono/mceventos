@@ -1,6 +1,6 @@
 // Official sources and asset provenance: CONTENT-SOURCES.md.
 export const contact = {
-  whatsapp: "https://wa.me/5521987829569",
+  whatsapp: "https://wa.me/5548988504082",
   instagram: "https://www.instagram.com/mceventoscinthia/",
   portfolio: "/portfolio-cinthia-lenoch.pdf",
 };
