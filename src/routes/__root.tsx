@@ -82,13 +82,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       {
         property: "og:image",
-        content: "https://cinthialenoch.com.br/images/lenoch-share.png",
+        content: "https://cinthialenoch.com.br/images/cinthia-lenoch.png",
       },
-      { property: "og:image:width", content: "512" },
-      { property: "og:image:height", content: "512" },
+      { property: "og:image:width", content: "1060" },
+      { property: "og:image:height", content: "1484" },
       {
         name: "twitter:image",
-        content: "https://cinthialenoch.com.br/images/lenoch-share.png",
+        content: "https://cinthialenoch.com.br/images/cinthia-lenoch.png",
       },
     ],
     links: [
