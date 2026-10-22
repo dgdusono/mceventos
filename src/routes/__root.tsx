@@ -82,13 +82,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       {
         property: "og:image",
-        content: "https://cinthialenoch.com.br/images/cinthia-lenoch.png",
+        content: "https://cinthialenoch.com.br/images/lenoch-share.png",
       },
-      { property: "og:image:width", content: "1060" },
-      { property: "og:image:height", content: "1484" },
+      { property: "og:image:width", content: "512" },
+      { property: "og:image:height", content: "512" },
       {
         name: "twitter:image",
-        content: "https://cinthialenoch.com.br/images/cinthia-lenoch.png",
+        content: "https://cinthialenoch.com.br/images/lenoch-share.png",
       },
     ],
     links: [
@@ -100,7 +100,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "/fonts/fonts.css",
       },
-      { rel: "icon", href: "/favicon.png", type: "image/png" },
+      { rel: "icon", href: "/favicon-lenoch.png", type: "image/png" },
     ],
   }),
   shellComponent: RootShell,
