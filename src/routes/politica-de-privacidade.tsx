@@ -95,11 +95,13 @@ function PrivacyPolicy() {
             evento são separados de mensagens promocionais.
           </p>
           <p>
-            Os dados de mailing devem vir diretamente da pessoa ou do cliente responsável pelo
-            evento, que deve ter legitimidade para compartilhá-los e informar os titulares. Não
-            compramos listas nem coletamos contatos por raspagem automatizada para campanhas. Não
-            adicionamos automaticamente alguém que pediu um orçamento ou participou de um evento a
-            uma lista de marketing da Cinthia Lenoch.
+            As listas da Cinthia Lenoch podem incluir dados de clientes e contatos comerciais com
+            quem houve uma relação ou contato profissional. Em projetos de eventos, também podemos
+            tratar listas fornecidas pelo cliente contratante, que deve ter legitimidade para
+            compartilhá-las e informar os titulares sobre o uso. A origem e a finalidade da lista
+            devem ser verificáveis; os dados não devem ser usados para finalidades incompatíveis ou
+            sem base legal aplicável. A participação em um evento, por si só, não significa inclusão
+            na lista de marketing própria da Cinthia Lenoch.
           </p>
           <p>
             Mensagens promocionais devem identificar quem envia e oferecer uma forma simples e
@@ -115,6 +117,12 @@ function PrivacyPolicy() {
             finalidades e pelo período definidos nas instruções e no contrato do evento, e os
             devolvemos, eliminamos ou anonimizamos ao final do serviço, ressalvadas obrigações
             legais e instruções legítimas do controlador.
+          </p>
+          <p>
+            Atualmente, a Cinthia Lenoch não usa uma plataforma dedicada de e-mail marketing ou
+            disparos em massa. Se uma ferramenta externa vier a ser usada, ou se o cliente do evento
+            indicar a plataforma, a informação será tratada conforme o projeto e esta política será
+            atualizada quando necessário.
           </p>
         </section>
 
