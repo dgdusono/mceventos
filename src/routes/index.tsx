@@ -264,7 +264,10 @@ function Home() {
           </div>
           <div className="footer-bottom">
             <p>© {new Date().getFullYear()} Cinthia Lenoch.</p>
-            <p>Produção · Coordenação · Eventos</p>
+            <div className="footer-bottom-meta">
+              <a href="/politica-de-privacidade">Política de Privacidade</a>
+              <p>Produção · Coordenação · Eventos</p>
+            </div>
           </div>
         </div>
       </footer>
